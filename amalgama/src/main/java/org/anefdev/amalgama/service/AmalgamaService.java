@@ -25,7 +25,7 @@ public class AmalgamaService {
         return request + "\n\n" + lyricsOriginal + "\n\n" + lyricsTranslated;
     }
 
-    void getConnection(String input) {
+    private void getConnection(String input) {
 
         String[] rawText = input.split("-");
         String artistRaw = rawText[0].trim();
